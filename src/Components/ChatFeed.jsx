@@ -1,7 +1,7 @@
 import MessageForm from "./MessageForm";
 import MyMessage from "./MyMessage";
 import TheirMessage from "./TheirMessage";
-import Loader from "./Spinner_Loader";
+import Spinner from "./Spinner_Loader";
 
 const ChatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;
@@ -60,7 +60,7 @@ const ChatFeed = (props) => {
   };
 
   if (!chat) {
-    return <Loader />;
+    return <Spinner />;
   }
 
   return (

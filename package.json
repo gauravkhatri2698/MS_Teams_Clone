@@ -38,9 +38,7 @@
   "devDependencies": {
     "@ant-design/icons": "^4.7.0",
     "axios": "^0.26.0",
-    "dotenv": "^16.0.0",
     "react-chat-engine": "^1.11.22",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.1.2"
+    "react-spinkit": "^3.0.0"
   }
 }
